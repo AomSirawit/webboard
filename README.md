@@ -24,10 +24,11 @@
 3. โคลนโปรเจกต์จาก Github
 4. ติดตั้ง Composer dependencies: `composer install`
 5. ติดตั้ง NPM dependencies: `npm install`
-6. สร้างไฟล์ `.env` และตั้งค่า database
-7. รัน migrations: `php artisan migrate`
-8. รัน seeders (ถ้ามี): `php artisan db:seed`
-9. รันเว็บบอร์ด: `php artisan serve`
+6. ใช้ไฟล์ sql จากโฟล์เดอร์ mysqldb เป็น database
+7. สร้างไฟล์ `.env` และตั้งค่า database
+8. รัน migrations: `php artisan migrate`
+9. รัน seeders (ถ้ามี): `php artisan db:seed`
+10. รันเว็บบอร์ด: `php artisan serve`
 
 ## หมายเหตุ
 
