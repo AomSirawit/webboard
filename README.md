@@ -6,6 +6,7 @@
 
 - Laravel 10
 - Bootstrap 5
+- MySql
 
 ## ฟังก์ชัน
 
