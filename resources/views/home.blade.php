@@ -32,6 +32,7 @@
                     <hr>
                     <h5 class="card-title">{{$item->title}}</h5>
                     <p class="card-text">{{$item->content}}</p>
+                    <a href="{{ route('more', $item->id) }}" class="btn btn-warning w-50">Details</a>
                 </div>
             </div>
             @endforeach
