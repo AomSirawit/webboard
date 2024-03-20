@@ -26,7 +26,7 @@
 3. โคลนโปรเจกต์จาก Github
 4. ติดตั้ง Composer dependencies: `composer install`
 5. ติดตั้ง NPM dependencies: `npm install`
-6. ใช้ไฟล์ sql จากโฟล์เดอร์ mysqldb เป็น database
+6. ใช้ไฟล์ชื่อ webboarddb.sql เป็น database
 7. สร้างไฟล์ `.env` และตั้งค่า database
 8. รัน migrations: `php artisan migrate`
 9. รัน seeders (ถ้ามี): `php artisan db:seed`
