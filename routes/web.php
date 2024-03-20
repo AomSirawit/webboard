@@ -28,12 +28,11 @@ Route::prefix('users')->group(function () {
 
     Route::get('/more/{id}', [AdminController::class, 'more'])->name('more');
 
+    Route::post('/commentInsert/{id}', [AdminController::class, 'commentInsert'])->name('commentInsert');
+
 
 });
 Route::get('/home', [AdminController::class, 'index'])->name('home');
-
-
-
 
 Auth::routes();
 

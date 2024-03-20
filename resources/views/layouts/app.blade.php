@@ -60,7 +60,7 @@
                                     Hello, {{ Auth::user()->name }}
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                     <a class="dropdown-item" href="/home">ข้อความทั้งหมด</a>
+                                     <a class="dropdown-item" href="/home">เพิ่มข้อความ</a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
