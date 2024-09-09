@@ -1,3 +1,4 @@
+![Example Image](public/img.png)
 # เว็บบอร์ด
 
 โปรเจกต์นี้เป็นเว็บบอร์ดง่ายๆ ที่พัฒนาด้วย Laravel 10 และ Bootstrap 5
