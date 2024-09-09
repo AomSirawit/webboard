@@ -53,7 +53,7 @@ class AdminController extends Controller
     function delete($id)
     {
         Board::find($id)->delete();
-        return redirect()->back();
+        return redirect('/home');
 
     }
     function more($id)

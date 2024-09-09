@@ -24,7 +24,7 @@ Route::prefix('users')->group(function () {
 
     Route::post('/insert', [App\Http\Controllers\AdminController::class, 'insert'])->name('insert');
 
-    Route::get('/delete/{id}', [AdminController::class, 'delete'])->name('delete');
+    Route::delete('/delete/{id}', [AdminController::class, 'delete'])->name('delete');
 
     Route::get('/more/{id}', [AdminController::class, 'more'])->name('more');
 

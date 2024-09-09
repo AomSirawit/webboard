@@ -2,6 +2,10 @@
 @section('title', 'create')
 @section('content')
 
+@php
+    $name = Auth::user()->name;
+@endphp
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -13,7 +17,7 @@
                         @csrf
                         <div class="form-group">
                             <label for="name">ชื่อของคุณ</label>
-                            <input type="text" name="name" class="form-control">
+                            <input type="text" name="name" class="form-control" value={{ $name }} readonly>
                         </div>
 
                         @error('name')
